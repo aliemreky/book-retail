@@ -57,7 +57,8 @@ spring:
 
 ### API Endpoints
 
-All Api Endpoint secures with Spring Security JWT.
+All Api Endpoint secure with Spring Security JWT.
+
 First register, then get auth token from header. Then can be called endpoints.
 
 > **POST Mapping** http://localhost:8080/login -> Public endpoint which returns a signed JWT for valid user credentials (username/password)
