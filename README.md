@@ -1,1 +1,2 @@
-# book-retail
+# Book Retail Project
+

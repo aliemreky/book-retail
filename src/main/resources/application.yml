@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: BookRetail
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/BookDB
+      repositories:
+        type: auto
+      auto-index-creation: true
+app:
+  routes:
+    root: /api
+    customer:
+      signUp: /user/sign-up
+      orders: /user/get-orders
+    book:
+      create: /book/create
+      update: /book/update
+    order:
+      create: /order/create
+      detail: /order/detail
+      getListByDate: /order/get-list-by-date
+      getStatisticMonthly: /order/get-statistic-monthly
