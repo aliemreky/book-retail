@@ -7,7 +7,7 @@ git clone https://github.com/aliemreky/book-retail.git
 cd book-retail
 ```
 
-##Project Detail:
+## Project Detail:
 ```bash
 • Registering New Customer
 • Placing a new order
@@ -38,7 +38,7 @@ Maven Dependencies
 </dependency>
 ```
 
-###Database
+### Database
 
 **You have to create a database that names is BookDB in Mongo DB !**
 
@@ -55,7 +55,7 @@ spring:
       auto-index-creation: true
 ```
 
-###API Endpoints
+### API Endpoints
 
 All Api Endpoint secures with Spring Security JWT.
 First register, then get auth token from header. Then can be called endpoints.
